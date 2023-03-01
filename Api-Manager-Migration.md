@@ -33,7 +33,7 @@ Redis CLI Documentation: [Redis CLI Commands](https://redis.io/commands/ "Redis 
 	<client>
 		<host>127.0.0.1</host>
 		<port>6379</port>
-		<password>FAEDEF1E0125AB7EC3341DFBAD9E05B5</password>
+		<password>{{REDIS_PASSWORD}}</password>
 		<pooling>${sys:apim.home}/conf/pooling.properties</pooling>
 	</client>
 </redis>
